@@ -1,0 +1,202 @@
+/* html {
+    background: rgb(1,74,66);
+    background: -moz-radial-gradient(circle, rgba(1,74,66,1) 50%, rgba(0,51,45,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(1,74,66,1) 50%, rgba(0,51,45,1) 100%);
+    background: radial-gradient(circle, rgba(1,74,66,1) 50%, rgba(0,51,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#014a42",endColorstr="#00332d",GradientType=1);
+} */
+/* body {
+    background: rgb(1,74,66);
+    background: -moz-radial-gradient(circle, rgba(1,74,66,1) 50%, rgba(0,51,45,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(1,74,66,1) 50%, rgba(0,51,45,1) 100%);
+    background: radial-gradient(circle, rgba(1,74,66,1) 50%, rgba(0,51,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#014a42",endColorstr="#00332d",GradientType=1);
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.WealthyandWise-logo {
+    width: 100%;
+    max-width: 400px;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    background: #018721;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    display: block;
+    margin: 0;
+}
+
+.box {
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+.box:nth-child(even) {
+    margin-top: 1rem;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+    background: linear-gradient(-45deg, #004b42, #00342d, #fde28b, #4A1802);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    /* height: 100vh; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 11vw;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.WealthyandWise-logo {
+    width: 100%;
+    max-width: 100px;
+}
+
+.contact-listing {
+    text-align: center;
+    /* background: #e0e0e0; */
+    border-radius: 8px;
+    padding: 5%;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.contact-listing p {
+    margin: 0.5rem 0;
+}
+
+.box p {
+    margin: 0 0 0.3rem 0;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #383838;
+}
+
+.line {
+    background: red;
+    margin: 1rem auto;
+    width: 50%;
+}
+
+/* .phone-cta, .email-cta {
+    padding: 1rem;
+    background: #B06305;
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+} */
+
+.description {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 1199px) {
+
+}
+@media (min-width: 991px) {
+
+}
+@media (min-width: 767px) {
+
+    h1 {
+        font-size: 100px;
+    }
+    .WealthyandWise-logo {
+        width: 100%;
+        max-width: 120px;
+    }
+    .description {
+        font-size: 1.1rem;
+    }
+
+}
+@media (min-width: 479px) {
+    .WealthyandWise-logo {
+        width: 100%;
+        max-width: 150px;
+    }
+
+}
+/* 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 	
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1)  { 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  { 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {  
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+} */
